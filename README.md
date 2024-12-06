@@ -1,4 +1,4 @@
-# Insper Projetos 🧑‍💻
+# Daniel Marco Djanikian Portfólio 🧑‍💻
 
 Bem-vindo ao repositório que reúne os principais projetos desenvolvidos ao longo da minha trajetória acadêmica no Insper. 🎓
 
