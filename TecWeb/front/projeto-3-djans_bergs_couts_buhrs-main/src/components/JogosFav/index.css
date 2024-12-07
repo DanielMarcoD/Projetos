@@ -1,0 +1,49 @@
+/* Body styles */
+body {
+    background-color: lightcyan;
+}
+
+.container-fav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.Titulo{
+    font-family: 'Jura', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.paragraf{
+    font-family: 'Jura', sans-serif;
+    font-size: 120%;
+    text-align: center;
+}
+
+
+.jogos_list{
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Jura', sans-serif;
+    align-items: center;
+    background-color: rgb(216, 237, 245);
+    padding: 5%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.btn-delete{
+    font-size: 80%;
+    margin-left: 20%;
+}
+
+.jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

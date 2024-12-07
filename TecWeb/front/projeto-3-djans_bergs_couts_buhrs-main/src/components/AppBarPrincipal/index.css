@@ -1,0 +1,42 @@
+.subtitle {
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #09769E;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 1%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+}
+
+
+
+.brand-edit{
+    margin-left: -20%;
+}
+
+.fav-edit{
+    margin-left: 875%;
+}
+
+
+
+
+
+#logo{
+    width: 28px;
+    height: 28px;
+    margin-right: 1rem;
+}
+
+.navbar-item:not(:last-child) {
+    margin-right: 1rem;
+}

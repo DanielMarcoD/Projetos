@@ -1,0 +1,44 @@
+/* Estilos base */
+.change-container {
+  width: 40%;
+  margin: 10% auto;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+}
+
+.info-label {
+  font-size: 150%;
+  margin-bottom: 7%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.btn-salvar{
+  margin-right: 2%;
+}
+
+.btn-deletar{
+  margin-left: 2%;
+}
+
+.btn-salvar,
+.btn-deletar{
+  margin-top: 2%;
+}
+
+/* Mídia queries para ajustar o layout em tamanhos de tela menores */
+@media screen and (max-width: 768px) {
+  .signup-container {
+      max-width: 50%; /* Reduzir a largura máxima do contêiner para 50% da largura da tela */
+      margin: 20% auto; /* Ajustar a margem superior e inferior para 20% da tela */
+      padding: 5%; /* Aumentar o preenchimento do contêiner */
+  }
+}

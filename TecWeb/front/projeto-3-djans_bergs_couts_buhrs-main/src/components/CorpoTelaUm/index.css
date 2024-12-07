@@ -1,0 +1,64 @@
+/* Estilos CSS */
+.corpo {
+  font-family: 'Jura', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: lightcyan;
+  margin-top: 5%;
+}
+
+.sub-corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Adiciona alinhamento vertical e horizontal */
+}
+
+.titulo {
+  font-size: 200%; /* Torna o tamanho do título responsivo */
+  margin-bottom: 6vh; /* Ajusta a margem inferior do título */
+  font-weight: 600;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 2%;
+  font-size: 100%; /* Torna o tamanho da fonte do input responsivo */
+  font-family: 'Jura', sans-serif;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 2vh; /* Reduz a margem inferior */
+  border: 2px solid #ccc;
+}
+
+.btn-edit {
+  width: 100%; /* Ajusta a largura do botão para ocupar a largura do input */
+  padding: 2%;
+  font-size: 100%; /* Torna o tamanho da fonte do botão responsivo */
+  border-radius: 3px;
+  font-family: 'Jura', sans-serif;
+}
+
+.texto2 {
+  font-size: 150%; /* Torna o tamanho do texto responsivo */
+  margin-top: 5%; /* Ajusta a margem superior */
+  font-weight: 600;
+  margin-bottom: 2.5%; /* Ajusta a margem inferior */
+  text-align: center;
+}
+
+#lupa {
+  width: 100%; /* Ajusta o tamanho da lupa para ser responsivo */
+  height: 15%;
+  margin-top: -30%; /* Ajusta a margem superior */
+}
+
+.error {
+  font-size: 2vw; /* Torna o tamanho do texto de erro responsivo */
+  color: red;
+  margin-bottom: 2vh; /* Ajusta a margem inferior */
+}
